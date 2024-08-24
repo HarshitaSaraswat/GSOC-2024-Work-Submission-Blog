@@ -1,178 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <title>Harshita Saraswat Google Summer of Code</title>
-    <meta property="og:title" content="Harshita Saraswat Google Summer of Code" />
-    <meta
-      property="og:description"
-      content="Component Management Plugin - FreeCAD. Harshita Saraswat - Google Summer of Code 2024 at FreeCAD work showcase."
-    />
-    <meta
-      property="og:image"
-      content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/72ffb865-40f2-43e3-a7a4-220163184021/0dd4d9b8-cd92-4ae8-b8ca-f7ee7a0639b2?org_if_sml=1"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="gsoc_logo.svg" alt="Google Summer of Code" class="logo">
+            <img src="freecad_logo.webp" alt="FreeCAD Logo" class="logo">
+        </header>
 
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter;
-        font-size: 16px;
-      }
+        <section class="title-section">
+            <h1>Google Summer of Code 2024 Work Product Submission</h1>
+            <h2>FreeCAD Command-Line Preferences Manipulation</h2>
+        </section>
 
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
+        <section class="section">
+            <h1>Brief Summary of Project</h1>
+            <p>The FreeCAD Preference Manipulation CLI Tool will be designed to streamline the customization of FreeCAD directly from the command line interface, eliminating the need for complex graphical interfaces. It will facilitate the management of FreeCAD's preferences, enabling users to perform various tasks such as modifying existing configurations, accessing preferences stored in files, and removing unnecessary settings. Whether users are adjusting preferences for personal use or system-wide configurations, this tool will offer comprehensive control. Users will be able to swiftly create tailored preferences and make precise adjustments without the inconvenience of additional GUIs, enhancing workflow efficiency.</p>
+        </section>
 
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <div>
-      <link href="./style.css" rel="stylesheet" />
+        <section class="work-section">
+            <h1>What Work Was Done</h1>
+            <p>A comprehensive CLI tool was developed to manage FreeCAD preferences, enabling users to interact with FreeCAD configurations directly from the command line. The tool provides a range of features to customize preferences, including the ability to list, read, write, and remove preferences. Users can access preferences stored in files, modify existing configurations, and create new settings with ease. The tool's functionality is designed to simplify preference management, offering a user-friendly interface for efficient customization. The CLI tool is built using Python and the Click library, providing a seamless experience for users to interact with FreeCAD preferences.</p>
 
-      <div class="gsoc2024work-product-submission-container">
-        <div class="gsoc2024work-product-submission-container01">
-          <div class="gsoc2024work-product-submission-container02">
-            <div class="gsoc2024work-product-submission-container03">
-              <img
-                alt="image"
-                src="gsoc_logo.svg"
-                class="gsoc2024work-product-submission-image"
-              />
-              <span class="gsoc2024work-product-submission-text">2024</span>
-            </div>
-            <img
-              alt="image"
-              src="freecad_logo.webp"
-              class="gsoc2024work-product-submission-image1"
-            />
-          </div>
-        </div>
-        <h1 class="gsoc2024work-product-submission-text01">
-          Work Product Submission
-        </h1>
-        <h1 class="gsoc2024work-product-submission-text02">
-          Command-Line Preferences Manipulation
-        </h1>
-        <div class="gsoc2024work-product-submission-container04">
-          <div class="gsoc2024work-product-submission-container05">
-            <h1 class="gsoc2024work-product-submission-text03">
-              Brief Summary of Project
-            </h1>
-            <span class="gsoc2024work-product-submission-text04">
-              The FreeCAD Preference Manipulation CLI Tool will be designed to streamline the customization of FreeCAD directly from the command line interface, eliminating the need for complex graphical interfaces. It will facilitate the management of FreeCAD's preferences, enabling users to perform various tasks such as modifying existing configurations, accessing preferences stored in files, and removing unnecessary settings. Whether users are adjusting preferences for personal use or system-wide configurations, this tool will offer comprehensive control. Users will be able to swiftly create tailored preferences and make precise adjustments without the inconvenience of additional GUIs, enhancing workflow efficiency.
-            </span>
-          </div>
-        </div>
-        <div class="gsoc2024work-product-submission-container06">
-          <div class="gsoc2024work-product-submission-container07">
-            <h1 class="gsoc2024work-product-submission-text11">
-              What Work Was Done
-            </h1>
-            <span class="gsoc2024work-product-submission-text12">
-                A comprehensive CLI tool was developed to manage FreeCAD preferences, enabling users to interact with FreeCAD configurations directly from the command line. The tool provides a range of features to customize preferences, including the ability to list, read, write, and remove preferences. Users can access preferences stored in files, modify existing configurations, and create new settings with ease. The tool's functionality is designed to simplify preference management, offering a user-friendly interface for efficient customization. The CLI tool is built using Python and the Click library, providing a seamless experience for users to interact with FreeCAD preferences.
-            </span>
-            <span class="gsoc2024work-product-submission-text12">
-                <b>Features</b>
-                <br>
-                <ul>
-                  <li>Read preferences from FreeCAD</li>
-                  <li>Write preferences to FreeCAD</li>
-                  <li>Remove preferences from FreeCAD</li>
-                  <li>Modify existing configurations</li>
-                  <li>List all preferences</li>
-                  <li>Tab completion for preference paths</li>
-                  <li>Support for system-wide and user-specific preferences</li>
-                  <li>Cross-platform support</li>
-                </ul>
-                <br>
-                <b>Example usage:</b>
-                <br>
-                <a href="https://asciinema.org/a/672998" target="_blank"><img src="https://asciinema.org/a/672998.svg" height="500"/></a>
-
-            </span>
-          </div>
-        </div>
-        <div class="gsoc2024work-product-submission-container12">
-          <div class="gsoc2024work-product-submission-container13">
-            <h1 class="gsoc2024work-product-submission-text50">
-              Links to the work
-            </h1>
-            <ul class="list">
-              <li class="list-item">
-                <span class="gsoc2024work-product-submission-text53">
-                  The project is an addon and not the part of official FreeCAD repository. The code can be found at
-                </span>
-                <a
-                  href="https://github.com/HarshitaSaraswat/Commandline_Preference_Management/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="gsoc2024work-product-submission-link08"
-                >
-                  Commandline Preference Management
-                </a>
-              </li>
+            <h1>Features</h1>
+            <ul>
+                <li>Read preferences from FreeCAD</li>
+				<li>Write preferences to FreeCAD</li>
+				<li>Remove preferences from FreeCAD</li>
+				<li>Modify existing configurations</li>
+				<li>List all preferences</li>
+				<li>Tab completion for preference paths</li>
+				<li>Support for system-wide and user-specific preferences</li>
+				<li>Cross-platform support</li>
             </ul>
-            <h1 class="gsoc2024work-product-submission-text50">What's Next</h1>
-            <ul class="list">
-              <li class="list-item">
-                <span class="gsoc2024work-product-submission-text53">
-                  Making Auto suggestion better
-                </span>
-              </li>
-              <li class="list-item">
-                <span class="gsoc2024work-product-submission-text54">
-                  Extending Auto tab completion to windows
-                </span>
-              </li>
-            </ul>
-          </div>
-        </div>
+			<br>
 
-        <div class="gsoc2024work-product-submission-container18">
-          <nav class="social-links-nav social-links-root-class-name">
-            <a
-              href="https://github.com/HarshitaSaraswat/"
-              target="_blank"
-              rel="noreferrer noopener"
-              class="social-links-link"
-            >
-              <span>Github</span>
-            </a>
-            <a
-              href="https://in.linkedin.com/in/harshita-saraswat-648255228"
-              target="_blank"
-              rel="noreferrer noopener"
-              class="social-links-link1"
-            >
-              <span>Linkedin</span>
-            </a>
-            <a
-              href="mailto:harshitasaraswat20@gmail.com?subject="
-              class="social-links-link2"
-            >
-              <span>Email: harshitasaraswat20@gmail.com</span>
-            </a>
-          </nav>
+			<h1>Example usage:</h1>
+            <a href="https://asciinema.org/a/672998" target="_blank"><img src="https://asciinema.org/a/672998.svg" height="500"/></a>
+        </section>
+
+		<section class="work-section">
+			<h1>Links to the work</h1>
+			<p>
+				<span >The project is an addon and not the part of official FreeCAD repository. The code can be found at</span>
+				<a class="link" href="https://github.com/HarshitaSaraswat/Commandline_Preference_Management/">Commandline Preference Management</a>
+				.
+			</p>
+			<h1>What's Next</h1>
+			<ul>
+				<li>Making Auto suggestion better</li>
+				<li>Extending Auto tab completion to windows</li>
+			</ul>
+
+		</section>
+
+		<footer class="section">
+        <div class="links">
+            <a href="https://github.com/HarshitaSaraswat/">Github</a>
+            <a href="https://in.linkedin.com/in/harshita-saraswat-648255228">LinkedIn</a>
+            <a href="mailto:harshitasaraswat20@gmail.com">Email: harshitasaraswat20@gmail.com</a>
         </div>
-      </div>
+    </footer>
     </div>
-  </body>
+</body>
 </html>
