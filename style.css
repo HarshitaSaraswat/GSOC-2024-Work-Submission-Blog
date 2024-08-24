@@ -43,7 +43,6 @@
 .title-section {
     text-align: center;
     background-color: #fff;
-	/* color: #fff; */
     padding: 20px;
     border-radius: 0 0 8px 8px ;
 }
@@ -55,7 +54,6 @@
 
 .title-section h2 {
     font-size: 1.5em;
-    /* color: #005792; */
 }
 
 .section, .work-section {
@@ -78,25 +76,6 @@
     line-height: 1.6;
 }
 
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .ogo {
-        max-height: 60px;
-        margin-bottom: 10px;
-    }
-
-    .title-section h1 {
-        font-size: 1.5em;
-    }
-
-    .title-section h2 {
-        font-size: 1.25em;
-    }
-}
 
 .links {
 	display: flex;
@@ -109,4 +88,30 @@
 }
 .links a:hover, .link {
 	text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .gsoc-logo, .freecad-logo {
+        max-height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .title-section h1 {
+        font-size: 1.5em;
+    }
+
+    .title-section h2 {
+        font-size: 1.25em;
+    }
+
+    .links {
+        flex-direction: column;
+        gap: 10px;
+        font-size: large;
+    }
 }
