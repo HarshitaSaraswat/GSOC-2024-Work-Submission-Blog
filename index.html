@@ -23,32 +23,53 @@
 
         <section class="work-section">
             <h1>What Work Was Done</h1>
-            <p>A comprehensive CLI tool was developed to manage FreeCAD preferences, enabling users to interact with FreeCAD configurations directly from the command line. The tool provides a range of features to customize preferences, including the ability to list, read, write, and remove preferences. Users can access preferences stored in files, modify existing configurations, and create new settings with ease. The tool's functionality is designed to simplify preference management, offering a user-friendly interface for efficient customization. The CLI tool is built using Python, FreeCAD and Argparse library, providing a seamless experience for users to interact with FreeCAD preferences.</p>
+            <p>A comprehensive CLI tool was developed to manage FreeCAD preferences, enabling users to interact with FreeCAD configurations directly from the command line. The tool provides a range of features to customize preferences, including the ability to list, read, write, and remove preferences. Users can access preferences stored in files, modify existing configurations, and create new settings with ease. The tool's functionality is designed to simplify preference management, offering a user-friendly interface for efficient customization.</p>
+            <p>Command Designed Pattern has been implemented to ensure scalability and maintainability. This pairs well with the Commandline Interface Tool as the command can be selected at runtime by the user and an Invoker can then execute the command that was selected.</p>
 
-            <h1>Features</h1>
+            <h3>Features</h3>
             <ul>
                 <li>Read, Write, Remove, Modify and List preferences from FreeCAD</li>
-		<li>Tab completion for preference paths(linux only)</li>
-		<li>Support for system-wide and user-specific preferences</li>
-		<li>Cross-platform support</li>
+                <li>Tab completion for preference paths (<i>Linux only</i>)</li>
+                <li>Support for system-wide and user-specific preferences</li>
+                <li>Cross-platform support</li>
             </ul>
-		<br>
+            <br>
 
-			<h1>Example usage:</h1>
+            <h3>Tech Stack and Libraries Used</h3>
+            <ul>
+                <li>Python</li>
+                <li>FreeCAD</li>
+                <li>Argparse</li>
+                <li>Argcomplete</li>
+            </ul>
+            <br>
+
+			<h3>Example usage:</h3>
             <a href="https://asciinema.org/a/672998" target="_blank"><img src="https://asciinema.org/a/672998.svg" height="500"/></a>
         </section>
 
 		<section class="work-section">
 			<h1>Links to the work</h1>
+            <h3>Code:</h3>
 			<p>
 				<span >The project is an addon and not the part of official FreeCAD repository. The code can be found at</span>
 				<a class="link" href="https://github.com/HarshitaSaraswat/Commandline_Preference_Management/">Commandline Preference Management</a>
 				.
 			</p>
+            <h3>Forum</h3>
+            <p>
+                <span >The project is discussed on the FreeCAD forum </span>
+                <a class="link" href="https://forum.freecad.org/viewtopic.php?p=757446#p757446">here</a>
+                .
+            <h3>Github Issues</h3>
+            <p>
+                <span >The project is discussed on the Github</span>
+                <a class="link" href="https://github.com/HarshitaSaraswat/Commandline_Preference_Management/issues">Issues</a>
+                .
 			<h1>What's Next</h1>
 			<ul>
 				<li>Making Auto suggestion better</li>
-				<li>Extending Auto tab completion to windows</li>
+				<li>Extending Auto tab completion to Windows</li>
 			</ul>
 
 		</section>
